@@ -13,3 +13,4 @@ for i in range(10):
 # add 1 if the number is odd
         odd += 1
 # print the total number of odd number/s
+print(f"The total odd number/s is/are: {odd}")
