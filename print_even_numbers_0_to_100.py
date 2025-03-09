@@ -1,7 +1,7 @@
 # initialize an empty set to store numbers
 even = []
 # use for loop
-for i in range(10):
+for i in range(100):
 # process of knowing if a number is even
     if i % 2 == 0:
         even.append(i)
