@@ -4,3 +4,4 @@ num2 = int(input("Enter the second number: "))
 # process of getting the quotient
 quotient = num1 / num2
 # print quotient
+print(quotient)
