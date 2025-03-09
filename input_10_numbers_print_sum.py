@@ -11,3 +11,4 @@ for i in range(10):
 # add the number being input to the sum
     sum += num
 # print sum
+print(f"The sum of all the numbers is: {sum}")
