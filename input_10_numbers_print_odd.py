@@ -11,4 +11,5 @@ for i in range(10):
 # process of knowing if a number is odd
     if num % 2 == 1:
 # add 1 if the number is odd
+        odd += 1
 # print the total number of odd number/s
