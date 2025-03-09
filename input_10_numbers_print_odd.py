@@ -9,5 +9,6 @@ for i in range(10):
     num = int(input(f"Enter a number {i+1}: "))
     numbers.append(num)
 # process of knowing if a number is odd
+    if num % 2 == 1:
 # add 1 if the number is odd
 # print the total number of odd number/s
