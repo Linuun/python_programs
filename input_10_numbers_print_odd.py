@@ -3,6 +3,7 @@ numbers = []
 # initialize a variable to store odd numbers
 odd = 0
 # ask user to input 10 numbers
+print("Enter 10 numbers: ")
 # use for loop
 # process of knowing if a number is odd
 # add 1 if the number is odd
