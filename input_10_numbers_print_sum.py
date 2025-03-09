@@ -1,4 +1,5 @@
 # initialize an empty set to store numbers
+numbers = []
 # initialize a variable to store the sum
 # ask user to input 10 numbers
 # use for loop
