@@ -5,3 +5,4 @@ while num <= 100:
 # print the current value of num
     print(num)
 # increased the num by 2 in every iteration
+    num += 2
