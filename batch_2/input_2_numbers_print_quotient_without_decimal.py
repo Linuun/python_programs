@@ -8,3 +8,4 @@ if num2 == 0:
 else:
     quotient = num1 // num2
 # print quotient
+    print(quotient)
