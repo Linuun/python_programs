@@ -6,3 +6,4 @@ for i in range(1, 101):
     if i % 5 != 0:
         numbers.append(i)
 # print result
+print(numbers)
