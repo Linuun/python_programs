@@ -8,5 +8,6 @@ if num1 < num2:
 # print result
         print(i)
 # if num2 is less than num1 
+else:
 # use for loop
 # print result
