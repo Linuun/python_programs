@@ -10,5 +10,5 @@ if num1 < num2:
 # if num2 is less than num1 
 else:
 # use for loop
-    for i in range(num2+1, num1)
+    for i in range(num2+1, num1):
 # print result
