@@ -13,3 +13,4 @@ for i in range(10):
 # add 1 if the number is even
         even += 1
 # print the total number of even number/s
+print(f"The total even number/s is/are: {even}")
