@@ -5,4 +5,6 @@ num2 = int(input("Enter the second number: "))
 if num1 < num2:
     print(f"The smaller number is: {num1}")
 # check if they are equal
+elif num1 == num2:
+    print("They are equal")
 # check if num2 is smaller than num1
