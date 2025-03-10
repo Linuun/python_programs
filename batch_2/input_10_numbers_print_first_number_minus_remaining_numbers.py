@@ -8,4 +8,6 @@ for i in range(10):
 # assigned the first number to a variable
 result = numbers[0]
 # process of subtracting the first number to the remaining
+for num in numbers[1:]:
+    result -= num
 # print result
