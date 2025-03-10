@@ -4,6 +4,7 @@ num2 = int(input("Enter the second number: "))
 # check if num1 is less than num2
 if num1 < num2:
 # use for loop
+    for i in range(num1+1, num2):
 # print result
 # if num2 is less than num1 
 # use for loop
