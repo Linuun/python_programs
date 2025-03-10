@@ -6,6 +6,7 @@ if num1 < num2:
 # use for loop
     for i in range(num1+1, num2):
 # print result
+        print(i)
 # if num2 is less than num1 
 # use for loop
 # print result
