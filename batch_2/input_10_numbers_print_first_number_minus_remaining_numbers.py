@@ -6,5 +6,6 @@ for i in range(10):
     num = int(input(f"Enter a number {i+1}: "))
     numbers.append(num)
 # assigned the first number to a variable
+result = numbers[0]
 # process of subtracting the first number to the remaining
 # print result
