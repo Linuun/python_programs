@@ -12,3 +12,4 @@ else:
 # use for loop
     for i in range(num2+1, num1):
 # print result
+        print(i)
