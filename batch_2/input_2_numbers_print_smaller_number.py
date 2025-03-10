@@ -8,3 +8,5 @@ if num1 < num2:
 elif num1 == num2:
     print("They are equal")
 # check if num2 is smaller than num1
+else:
+    print(f"The smaller number is: {num2}")
