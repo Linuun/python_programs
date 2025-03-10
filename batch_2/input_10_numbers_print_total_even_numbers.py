@@ -1,4 +1,5 @@
 # initialize an emtpy set to store numbers
+numbers = []
 # initialize a variable to store even numbers
 # ask user to input 10 numbers
 # use for loop
