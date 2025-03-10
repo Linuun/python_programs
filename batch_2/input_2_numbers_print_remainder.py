@@ -4,3 +4,4 @@ num2 = int(input("Enter the second number: "))
 # process of getting the remainder
 remainder = num1 % num2
 # print remainder
+print(remainder)
