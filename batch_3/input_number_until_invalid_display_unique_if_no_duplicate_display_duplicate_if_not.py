@@ -1,6 +1,7 @@
 # define a function
 def check_number_uniqueness():
 # initialize an empty set to store numbers
+    numbers = []
 # use while loop
 # use try block
 # ask user to input a number 
