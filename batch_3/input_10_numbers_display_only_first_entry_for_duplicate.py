@@ -14,3 +14,5 @@ def get_numbers_without_duplicates():
             seen.add(num)
             numbers.append(num)
 # display all numbers excluding duplicates
+    print(f"Here are the numbers (excluding duplicates): {numbers}")
+get_numbers_without_duplicates()
