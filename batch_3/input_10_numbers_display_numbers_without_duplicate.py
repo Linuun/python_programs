@@ -9,4 +9,5 @@ def get_unique_numbers():
         num = int(input(f"Enter a number {i+1}: "))
         numbers.append(num)
 # identify the numbers that appears only once
+    unique_numbers = [num for num in numbers if numbers.count(num) == 1]
 # display unique numbers
