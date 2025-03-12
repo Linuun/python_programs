@@ -11,3 +11,7 @@ while True:
     except ValueError:
         break
 # look for the highest number and display it
+if numbers:
+    print(f"The highest number is: {max(numbers)}")
+else:
+    print("No numbers were entered")
