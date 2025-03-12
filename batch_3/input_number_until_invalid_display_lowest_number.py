@@ -11,3 +11,7 @@ while True:
     except ValueError:
         break
 # check the lowest number in the list and display
+if numbers:
+    print(f"The lowest number in the list is: {min(numbers)}")
+else:
+    print("No numbers were entered")
