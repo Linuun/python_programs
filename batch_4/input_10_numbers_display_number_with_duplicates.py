@@ -9,4 +9,5 @@ def find_duplicates():
         num = int(input(f"Enter a number {i+1}: "))
         numbers.append(num)
 # check the numbers that appear more than once
+    duplicates = sorted(set([num for num in numbers if numbers.count(num) > 1]))
 # check if there are duplicates and display the numbers with duplicates
