@@ -8,6 +8,6 @@ def get_unique_numbers():
     for i in range(10):
         num = int(input(f"Enter a number {i+1}: "))
         numbers.append(num)
-# identify the numbers that appears only once
+# identify the numbers that appear only once
     unique_numbers = [num for num in numbers if numbers.count(num) == 1]
 # display unique numbers
