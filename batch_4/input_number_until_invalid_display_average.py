@@ -6,6 +6,7 @@ while True:
 # use try block
     try:
 # ask the user to input number
+        num = int(input("Enter a number (or any non-numeric to stop): "))
 # process of getting the sum of the numbers
 # add 1 to the counter everytime a number is inputted
 # use except block to break the loop if the user inputs non-numeric
