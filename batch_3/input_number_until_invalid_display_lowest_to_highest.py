@@ -11,3 +11,8 @@ while True:
     except ValueError:
         break
 # check if the list contains number and display it in ascending order
+if numbers:
+    numbers.sort()
+    print(f"Here are the numbers from lowest to highest: {numbers}")
+else:
+    print("No numbers were entered")
