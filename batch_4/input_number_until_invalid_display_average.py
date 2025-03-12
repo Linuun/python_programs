@@ -12,4 +12,6 @@ while True:
 # add 1 to the counter everytime a number is inputted
         count += 1
 # use except block to break the loop if the user inputs non-numeric
+    except ValueError:
+        break
 # process of getting the average and display it
