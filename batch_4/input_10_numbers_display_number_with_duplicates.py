@@ -11,3 +11,8 @@ def find_duplicates():
 # check the numbers that appear more than once
     duplicates = sorted(set([num for num in numbers if numbers.count(num) > 1]))
 # check if there are duplicates and display the numbers with duplicates
+    if duplicates:
+        print(f"Here are the numbers with duplicates: {duplicates}")
+    else:
+        print("There are no duplicates found")
+find_duplicates()
