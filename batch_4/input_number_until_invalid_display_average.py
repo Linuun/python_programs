@@ -2,6 +2,7 @@
 total_sum = 0
 count = 0
 # use while loop
+while True:
 # use try block
 # ask the user to input number
 # process of getting the sum of the numbers
