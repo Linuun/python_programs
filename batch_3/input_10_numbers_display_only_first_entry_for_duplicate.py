@@ -7,5 +7,7 @@ def get_numbers_without_duplicates():
 # ask user to input 10 numbers
     print("Enter 10 numbers: ")
 # use for loop
+    for i in range(10):
+        num = int(input(f"Enter a number {i+1}: "))
 # check if there are duplicates
 # display all numbers excluding duplicates
