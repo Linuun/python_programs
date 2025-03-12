@@ -15,4 +15,6 @@ def check_number_uniqueness():
                 print("Unique")
                 numbers.append(num)
 # use except block to break the loop if the user inputs non-numeric
+        except ValueError:
+            break
 # display the result
