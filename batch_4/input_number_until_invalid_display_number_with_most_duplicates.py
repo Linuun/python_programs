@@ -11,3 +11,10 @@ while True:
     except ValueError:
         break
 # look for the number with most duplicates and display
+if numbers:
+    frequency = {num: numbers.count(num) for num in set(numbers)}
+    max_count = max(frequency.values())
+    most_frequent = [num for num, count in frequency.items() if count == max_count]
+    print(f"Number(s) with the most duplicates: {most_frequent}")
+else:
+    print("No numbers were entered")
