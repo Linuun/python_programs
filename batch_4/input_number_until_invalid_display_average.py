@@ -15,3 +15,8 @@ while True:
     except ValueError:
         break
 # process of getting the average and display it
+if count > 0:
+    average = total_sum / count
+    print(f"The average of the numbers in the list is: {average}")
+else:
+    print("No numbers were entered")
