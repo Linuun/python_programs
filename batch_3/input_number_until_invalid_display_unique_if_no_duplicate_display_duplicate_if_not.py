@@ -1,4 +1,5 @@
 # define a function
+def check_number_uniqueness():
 # initialize an empty set to store numbers
 # use while loop
 # use try block
