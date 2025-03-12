@@ -5,6 +5,7 @@ def check_number_uniqueness():
 # use while loop
     while True:
 # use try block
+        try:  
 # ask user to input a number 
 # check if the number is already in the list to determine if it is unique
 # use except block to break the loop if the user inputs non-numeric
