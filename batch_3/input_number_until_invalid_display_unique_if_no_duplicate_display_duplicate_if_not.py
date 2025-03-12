@@ -3,6 +3,7 @@ def check_number_uniqueness():
 # initialize an empty set to store numbers
     numbers = []
 # use while loop
+    while True:
 # use try block
 # ask user to input a number 
 # check if the number is already in the list to determine if it is unique
