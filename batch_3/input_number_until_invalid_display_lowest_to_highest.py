@@ -1,4 +1,5 @@
 # initialize an empty set to store numbers
+numbers = []
 # use while loop
 # use try block
 # ask user to input a number
