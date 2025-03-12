@@ -1,4 +1,6 @@
 # initialize a variable for the sum and count
+total_sum = 0
+count = 0
 # use while loop
 # use try block
 # ask the user to input number
