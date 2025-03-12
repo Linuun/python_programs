@@ -1,4 +1,5 @@
 # define a function
+def find_duplicates():
 # initialize an empty set to store numbers
 # ask user to input 10 numbers
 # use for loop
