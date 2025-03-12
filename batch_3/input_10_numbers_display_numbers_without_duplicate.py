@@ -11,3 +11,5 @@ def get_unique_numbers():
 # identify the numbers that appear only once
     unique_numbers = [num for num in numbers if numbers.count(num) == 1]
 # display unique numbers
+    print(f"Here are the unique numbers: {unique_numbers}")
+get_unique_numbers()
