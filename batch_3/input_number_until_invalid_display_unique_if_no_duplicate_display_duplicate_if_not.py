@@ -18,3 +18,5 @@ def check_number_uniqueness():
         except ValueError:
             break
 # display the result
+    print(f"Numbers entered: {numbers}")
+check_number_uniqueness()
