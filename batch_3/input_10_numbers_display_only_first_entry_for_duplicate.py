@@ -10,4 +10,7 @@ def get_numbers_without_duplicates():
     for i in range(10):
         num = int(input(f"Enter a number {i+1}: "))
 # check if there are duplicates
+        if num not in seen:
+            seen.add(num)
+            numbers.append(num)
 # display all numbers excluding duplicates
