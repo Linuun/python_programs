@@ -10,7 +10,7 @@ while True:
 # use except block to break the loop if the user inputs non-numeric
     except ValueError:
         break
-# check if the list contains number and display it in descedning order
+# check if the list contains number and display it in descending order
 if numbers:
     numbers.sort(reverse=True)
     print(f"Here are the numbers from highest to lowest: {numbers}")
