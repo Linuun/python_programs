@@ -11,3 +11,8 @@ while True:
     except ValueError:
         break
 # check if the list contains number and display in it descending order
+if numbers:
+    numbers.sort(reverse=True)
+    print(f"Here are the numbers from highest to lowest: {numbers}")
+else:
+    print("No numbers were entered")
